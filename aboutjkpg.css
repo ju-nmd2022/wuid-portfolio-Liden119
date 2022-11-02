@@ -10,9 +10,9 @@ body {
   grid-template-columns: 5fr 3fr;
   grid-template-rows: 20vh 70vh 10vh;
   grid-template-areas:
-    "header header header"
-    "content . image"
-    "footer footer footer";
+    "header header"
+    "content ."
+    "footer footer";
   align-items: center;
 }
 
