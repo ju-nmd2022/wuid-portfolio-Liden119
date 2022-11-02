@@ -1,80 +1,80 @@
 /* Background color for the website*/
 body {
-    background-color: #bbbbbb;
-  }
-  
-  /*  Main Headlines */
-  h1 {
-    text-align: left;
-    color: darkgreen;
-    font-size: 4em;
-  }
-  
-  /* paragraph under Main Headline */
-  .firstparagraph {
-    columns: 3;
-    color: green;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    font-weight: bold;
-    font-size: 1.2em;
-    line-height: 1;
-    text-align: left;
-  }
-  
-  /* Headlines 2-3 */
-  h2 {
-    color: black;
-    font-size: 2.8em;
-    font-weight: bolder;
-    background-color: darkgrey;
-  }
-  
-  /* When you have your mouse on headline 2-3 */
-  h2:hover {
-    color: darkgreen;
-  }
-  
-  /* when you have your mouse on the list */
-  li:hover {
-    font-size: 2rem;
-    color: darkgreen;
-  }
-  
-  /* Button */
-  button {
-    color: darkgreen;
-    background-color: darkgray;
-    border-color: black;
-  }
-  
-  /* When you have your mouse on the button */
-  button:hover {
-    font-size: 2rem;
-  }
-  
-  /* The list */
-  ul {
-    font-size: 1.5em;
-  }
-  
-  /* hr border */
-  hr {
-    color: black;
-    border-width: 1.5pt;
-    border-style: solid;
-  }
-  
-  /* Vector Profile Picture Image */
-  .profilepicture {
-    float: right;
-    margin-top: 30px;
-    width: 120px;
-    height: 120px;
-  }
-  
-  /* When you have the mouse on top of the image */
-  .profilepicture:hover {
-    width: 360px;
-    height: 360px;
-  }
+  background-color: #bbbbbb;
+}
+
+/*  Main Headlines */
+h1 {
+  text-align: left;
+  color: darkgreen;
+  font-size: 4em;
+}
+
+/* paragraph under Main Headline */
+.firstparagraph {
+  columns: 3;
+  color: green;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1;
+  text-align: left;
+}
+
+/* Headlines 2-3 */
+h2 {
+  color: black;
+  font-size: 2.8em;
+  font-weight: bolder;
+  background-color: darkgrey;
+}
+
+/* When you have your mouse on headline 2-3 */
+h2:hover {
+  color: darkgreen;
+}
+
+/* when you have your mouse on the list */
+li:hover {
+  font-size: 2rem;
+  color: darkgreen;
+}
+
+/* Button */
+button {
+  color: darkgreen;
+  background-color: darkgray;
+  border-color: black;
+}
+
+/* When you have your mouse on the button */
+button:hover {
+  font-size: 2rem;
+}
+
+/* The list */
+ul {
+  font-size: 1.5em;
+}
+
+/* hr border */
+hr {
+  color: black;
+  border-width: 1.5pt;
+  border-style: solid;
+}
+
+/* Vector Profile Picture Image */
+.profilepicture {
+  float: right;
+  margin-top: 30px;
+  width: 120px;
+  height: 120px;
+}
+
+/* When you have the mouse on top of the image */
+.profilepicture:hover {
+  width: 360px;
+  height: 360px;
+}
