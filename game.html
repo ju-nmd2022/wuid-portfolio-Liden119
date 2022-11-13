@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/game.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <script src="js/game.js" defer></script>
+    <title>Game</title>
   </head>
 
   <body>
     <!-- "Main Container linked with the grid" -->
     <main class="container">
+
+
+    <!-- Topbar content first! -->
+
 
       <!-- Makes gaps in topbar black -->
         <div class="topBackground"></div>
@@ -24,7 +29,8 @@
       <div class="barMenu"></div>
 
       <!-- The "Home" tab -->
-      <div class="homeMenu"> <p>Home</p></div>
+      <a class="homeMenu" href="index.html">
+        <div>Home</div></a>
 
       <!-- The Jönköping tab and <a> to make it linkeable -->
       <a class="jkpgMenu" href="jkpg.html">
@@ -32,41 +38,33 @@
 
         <!-- My Works tab -->
         <a class="workMenu" href="myworks.html"><div> My Works</div>
-        </a>
-
-  <!-- Game tab -->
-  <a class="gameMenu" href="game.html"><div> Game</div>
-  </a>
-
-        <!-- content under topbar -->
-
-      <!-- Main Header -->
-      <div class="header"><h1> About Me!</h1></div>
-
-      <!-- First paragraph of text -->
-      <div class="firstP"><p> My name is Daniel and I'm 20 years old! I'm from Ulricehamn in Sweden,
-         and I still live there. It's about 40-50 minutes away from
-        Jönköping where I study New Media Design at Jönköping University</p></div>
+      </a>
+        
+          <!-- Game tab -->
+      <div class="gameMenu"> Game </div>
 
 
-        <!-- Header and list with hobbies -->
-      <div class="listHobbies">
-        <h2>My Hobbies!</h2>
-        <ul>
-          <li>Football</li>
-          I both play and watch a lot of Football
-          <br> <br>
-          <li> Gaming</li>
-          I play a lot of games, but mostly FIFA
-          <br> <br>
-          <li>Movies & Series</li>
-          My favourite movie(s) and serie(s) is Star Wars
-        </ul>
-      </div>
+    <!-- content under topbar -->
+        <h1 id="header">Higher or Lower</h1>
+        <p id="rules">Choose if you think the next number (0-10) will be higher or lower!
+            <br>
+            Green = You guessed correctly and you get 1 points to your current score!
+            <br>
+            Red = You guessed wrong and your current score gets reset!
+            <br>
+            Light Gray = The new number was the same as the old, so go again! This did not change your score!
+        </p>
+
+    <!-- Buttons for number, current score and h/l -->
+      <button id="number">1</button>
+      <button id="higher">higher</button>
+      <button id="lower">lower</button>
+      <h1 id="currentScore">Current Score:</h1>
+      <p id="score">0</p>
 
       
 
-      
+      <!-- Images + footer -->
       <!-- Logo at top left -->
       <img class="logo" src="pictures/logo.png" alt="picture" /></img>
 

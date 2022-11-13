@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/myworks.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>My Works</title>
   </head>
 
   <body>
     <!-- "Main Container linked with the grid" -->
     <main class="container">
+
+
+    <!-- Topbar content first! -->
+
 
       <!-- Makes gaps in topbar black -->
         <div class="topBackground"></div>
@@ -24,49 +28,53 @@
       <div class="barMenu"></div>
 
       <!-- The "Home" tab -->
-      <div class="homeMenu"> <p>Home</p></div>
+      <a class="homeMenu" href="index.html">
+        <div>Home</div></a>
 
       <!-- The Jönköping tab and <a> to make it linkeable -->
       <a class="jkpgMenu" href="jkpg.html">
         <div>Jönköping</div></a>
 
         <!-- My Works tab -->
-        <a class="workMenu" href="myworks.html"><div> My Works</div>
-        </a>
+        <div class="workMenu"> <p>My Works</p></div>
+        
+          <!-- Game tab -->
+      <a class="gameMenu" href="game.html"><div> Game</div>
+      </a>
 
-  <!-- Game tab -->
-  <a class="gameMenu" href="game.html"><div> Game</div>
-  </a>
 
-        <!-- content under topbar -->
+    <!-- content under topbar -->
 
       <!-- Main Header -->
-      <div class="header"><h1> About Me!</h1></div>
-
-      <!-- First paragraph of text -->
-      <div class="firstP"><p> My name is Daniel and I'm 20 years old! I'm from Ulricehamn in Sweden,
-         and I still live there. It's about 40-50 minutes away from
-        Jönköping where I study New Media Design at Jönköping University</p></div>
+      <div class="header"><h1> My Works!</h1></div>
 
 
-        <!-- Header and list with hobbies -->
-      <div class="listHobbies">
-        <h2>My Hobbies!</h2>
-        <ul>
-          <li>Football</li>
-          I both play and watch a lot of Football
-          <br> <br>
-          <li> Gaming</li>
-          I play a lot of games, but mostly FIFA
-          <br> <br>
-          <li>Movies & Series</li>
-          My favourite movie(s) and serie(s) is Star Wars
-        </ul>
-      </div>
+
+     <!-- Darth Vader headline and image -->
+     <a id="vaderH" href="vader.html"><h1>Darth Vader Simplification</h1></a>
+    <img id="vaderImg" src="pictures/Vader.jpg" alt="vader">
+
+
+    <!-- streaming headline and image -->
+    <h1 id="streamH">Streaming App Figma</h1>
+    <img id="streamImg" src="pictures/stream.jpg" alt="streamImg">
 
       
 
-      
+    <!-- Southpark headline and image -->
+    <h1 id="kyleH"> Crazy Kyle</h1>
+    <img id="kyleImg" src="pictures/southPark.jpg" alt="kyle">
+
+
+    <!-- North G -->
+    <h1 id="northGH"> Logo: North G</h1>
+    <img id="northGImg" src="pictures/northG.jpg" alt="northG">
+
+
+    <!-- This Website Progress -->
+    <h1 id="websiteH">This websites progress!</h1>
+    <img id="websiteImg" src="pictures/website.jpg" alt="website">
+
       <!-- Logo at top left -->
       <img class="logo" src="pictures/logo.png" alt="picture" /></img>
 
