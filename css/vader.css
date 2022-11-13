@@ -118,12 +118,6 @@ body {
   height: 300px;
 }
 
-#darthImg {
-  grid-area: darthImg;
-  width: 100%;
-  height: 100%;
-}
-
 /* The grey bar at the buttom */
 .footer {
   background-color: #202020;
