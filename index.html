@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="js/main.js" defer></script>
     <link rel="stylesheet" href="css/main.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,11 +16,18 @@
       <!-- Makes gaps in topbar black -->
         <div class="topBackground"></div>
 
+         <!-- https://www.w3schools.com/ -->
         <!-- Top bar, with the moving text -->
-      <div class="topbar"> <marquee behavior="alternate" direction="right">
-        Welcome to Daniel's website! ❤
-      </marquee></div>
+      <div class="topbar"></div>
 
+      <!-- The circle for animation -->
+      <div id="circle"></div>
+
+      <!-- button show/hide the ball -->
+      <button id="hide">Hide</button>
+      <button id="show">Show</button>
+
+      
       <!-- The grey bar -->
       <div class="barMenu"></div>
 
@@ -35,7 +43,7 @@
         </a>
 
   <!-- Game tab -->
-  <a class="gameMenu" href="game.html"><div> Game</div>
+  <a class="gameMenu" href="games.html"><div> Games</div>
   </a>
 
         <!-- content under topbar -->
