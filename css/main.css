@@ -12,13 +12,13 @@ body {
   grid-template-areas:
     "logo logo topbar topbar topbar topbar topbar topbar topbar topbar"
     "logo logo homeMenu jkpgMenu workMenu gameMenu barMenu barMenu barMenu barMenu"
+    "heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground"
+    "heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground"
+    "heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground"
+    "heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground heroBackground"
     ". header header header header header header header header ."
     ". firstP firstP firstP firstP firstP firstP firstP firstP ."
     ". listHobbies listHobbies listHobbies listHobbies listHobbies listHobbies listHobbies listHobbies ."
-    ". . . . . . . . . ."
-    ". . . . . . . . . ."
-    ". . . . . . . . . ."
-    ". . . . . . . . . ."
     ". . . . . . . . . ."
     "footer footer footer footer footer footer footer footer footer footer";
 
@@ -96,6 +96,12 @@ body {
 .barMenu {
   background-color: #202020;
   grid-area: barMenu;
+}
+
+#heroBackground {
+  grid-area: heroBackground;
+  height: 100%;
+  width: 100%;
 }
 
 /* the box/circle at top */
