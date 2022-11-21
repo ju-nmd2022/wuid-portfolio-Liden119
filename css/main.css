@@ -8,7 +8,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: 60px 60px repeat(8, 1fr);
-  grid-template-rows: 60px 60px repeat(9, 8rem);
+  grid-template-rows: 60px 60px repeat(11, 8rem);
   grid-template-areas:
     "logo logo topbar topbar topbar topbar topbar topbar topbar topbar"
     "logo logo homeMenu jkpgMenu workMenu gameMenu barMenu barMenu barMenu barMenu"
@@ -19,6 +19,8 @@ body {
     ". header header header header header header header header ."
     ". firstP firstP firstP firstP firstP firstP firstP firstP ."
     ". listHobbies listHobbies listHobbies listHobbies listHobbies listHobbies listHobbies listHobbies ."
+    ". . . . . . . . . ."
+    ". . . . . . . . . ."
     ". . . . . . . . . ."
     "footer footer footer footer footer footer footer footer footer footer";
 
